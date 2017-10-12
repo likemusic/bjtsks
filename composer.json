@@ -6,7 +6,8 @@
         "doctrine/orm": "^2.5",
         "twbs/bootstrap": "3.*",
         "twig/twig": "^2.0",
-        "nikic/fast-route": "^1.2"
+        "nikic/fast-route": "^1.2",
+        "php-di/php-di": "^5.4"
     },
     "authors": [
         {

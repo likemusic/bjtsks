@@ -1,8 +1,8 @@
 <?php
 
-use App\Application;
+use App\Base\Application;
 
 require __DIR__.'/../vendor/autoload.php';
 
-$application = new Application();
+$application = new Application(realpath(__DIR__.'/../'));
 $application->run();
